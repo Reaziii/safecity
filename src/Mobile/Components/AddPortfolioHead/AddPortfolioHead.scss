@@ -1,0 +1,87 @@
+.Market-Head-mobile {
+  width: 100%;
+  height: 140px;
+  background: #1b1b3e;
+  backdrop-filter: blur(27.1828px);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .header {
+    height: 44px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 44px;
+    .icon-setup {
+      margin-left: 24px;
+    }
+
+    .text {
+      display: flex;
+      align-items: center;
+      h2 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        color: #ececf5;
+      }
+      svg {
+        margin-left: 10px;
+      }
+    }
+
+    .usd {
+      margin-right: 24px;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #02d3ed;
+    }
+  }
+  .search-bar {
+    height: 32px;
+    width: calc(100% - 32px);
+    // border: 1px solid white;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #100f2b;
+    border-radius: 5px;
+    .search-icon {
+      width: 32px;
+    }
+    input {
+      width: calc(100% - 32px);
+      height: 100%;
+      border: none;
+      outline: none;
+      color: rgba(156, 156, 196, 1);
+      background: transparent;
+    }
+    input::-webkit-input-placeholder {
+      color: rgba(156, 156, 196, 1);
+    }
+    input:-ms-input-placeholder {
+      color: rgba(156, 156, 196, 1);
+    }
+    input::placeholder {
+      color: rgba(156, 156, 196, 1);
+    }
+  }
+
+  .abxt {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    /* identical to box height, or 129% */
+
+    color: #02d3ed;
+  }
+}

@@ -1,0 +1,25 @@
+.radio-button {
+  width: 40px;
+  height: 24px;
+  background: #0084f4;
+  border-radius: 16px;
+  position: relative;
+  .dot {
+    position: absolute;
+    transition: 0.2s all;
+
+    left: 0%;
+    height: 24px;
+    width: 24px;
+    background: white;
+    border-radius: 24px;
+  }
+}
+.radio-button.active {
+  background: rgba(255, 255, 255, 0.212);
+  .dot {
+    left: 100%;
+    transform: translate(-100%, 0%);
+    transition: 0.2s all;
+  }
+}

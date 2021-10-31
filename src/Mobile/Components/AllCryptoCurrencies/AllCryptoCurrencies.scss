@@ -1,0 +1,56 @@
+.AllCrypto-mobile {
+  margin-top: 24px;
+  h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ececf5;
+    margin-left: 17px;
+    margin-bottom: 20px;
+  }
+
+  .hello-world {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #25254A;
+
+    .left {
+      display: flex;
+      align-items: center;
+      svg {
+        margin-left: 17px;
+        margin-right: 10px;
+      }
+      .sss {
+        h2 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 14px;
+          line-height: 22px;
+          color: #ececf5;
+        }
+        h3 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 13px;
+
+          color: #7878a1;
+        }
+      }
+    }
+    .right{
+        border: none;
+        outline: none;
+        background: transparent;
+        cursor: pointer;
+        margin-right: 17px;
+    }
+  }
+}

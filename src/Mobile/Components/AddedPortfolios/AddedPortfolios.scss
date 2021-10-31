@@ -1,0 +1,39 @@
+.addedportfolios-mobile {
+  padding: 0px 17px;
+  margin-top: 24px;
+
+  .td {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #25254a;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    /* identical to box height, or 157% */
+
+    color: #ececf5;
+
+    .tr {
+      display: flex;
+      justify-content: flex-end;
+      align-items: center;
+      svg {
+        margin-right: 8px;
+      }
+    }
+    .cur {
+      width: 40%;
+      justify-content: flex-start;
+    }
+    .qua {
+      width: 30%;
+    }
+    .val {
+      width: 30%;
+    }
+  }
+}

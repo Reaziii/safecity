@@ -1,0 +1,59 @@
+.portfoliotab-mobile {
+  height: 80px;
+  background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+  border-radius: 5px;
+  margin: 0px 16px;
+  margin-top: 16px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 23px;
+  .fixed-rect {
+    position: absolute;
+    left: 0;
+    top: 0;
+  }
+
+  .left {
+    h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 18px;
+      line-height: 21px;
+
+      color: #ffffff;
+    }
+    p {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      margin-top: 6px;
+      color: #c6c6e5;
+    }
+  }
+  .right {
+    width: 73px;
+    height: 32px;
+    background: #00c48c;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 14px;
+    text-align: right;
+    border: none;
+    outline: none;
+    align-items: center;
+    color: #ffffff;
+    svg{
+        margin-right: 4px;
+    }
+  }
+}

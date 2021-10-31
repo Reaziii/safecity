@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;500;600&display=swap");
+.App {
+  background-color: #0f0f2b;
+  min-height: 100vh;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.Container {
+  width: 100%;
+}
+.Container .first-col {
+  width: 232px;
+  position: fixed;
+  background-color: #0f0f2b;
+  min-height: 100vh;
+  top: 0;
+  display: flex;
+  justify-content: flex-end;
+  /* border: 1px solid green; */
+}
+
+
+@media screen and (min-width : 1500px) {
+  .Container .first-col{
+    width: calc( 50% - 530px );
+  }
+}
+
+.Container .second-col {
+  margin-left: 232px;
+  position: relative;
+}
+.btn__blue_purple {
+  background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+  border-radius: 8px;
+}
+.main-container {
+  width: calc(100% - 40px);
+  max-width: calc(1441px - 252px);
+  background-color: #0f0f2b;
+  margin: auto;
+  position: relative;
+}
+a {
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: SF Pro Text;
+  src: url(./Assets/fonts/SF-Pro-Text-Medium.ttf);
+}
+
+.animation {
+  position: relative;
+  width: 100%;
+}
+.page{
+  position: absolute;
+  top : 0;
+  left: 50%;
+  transform: translate(-50%,0);
+}
+
+.fade-appear,
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms linear 150ms;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms linear;
+}
+
+.fade-enter {
+    opacity: 0;
+    z-index: 1;
+}
+
+.fade-appear-active,
+.fade-enter.fade-enter-active {
+  opacity: 1;
+  transition: opacity 1000ms ;
+}
+.fade-appear-active p,
+.fade-enter.fade-enter-active p {
+  /* transform: translateY(0); */
+  opacity: 1;
+}
+
+.fade-exit {
+    opacity: 1;
+}
+.fade-exit.fade-exit-active {
+    opacity: 0;
+    transition: opacity 1000ms linear;
+} 

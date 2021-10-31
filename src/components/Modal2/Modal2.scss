@@ -1,0 +1,275 @@
+.Modal2 {
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.192);
+  z-index: 1001;
+  transition: 0.5s all;
+  .modal-box {
+    width: calc(448px - 64px);
+    height: calc(482px - 32px);
+    padding: 32px;
+    padding-bottom: 0px;
+    background: #28284b;
+    border-radius: 24px;
+    position: absolute;
+    padding: 32px;
+    top: 100%;
+    left: 50%;
+    // animation: modal-box-Open 0.8s ;
+    transition: 0.5s all;
+
+    transform: translate(-50%, -105%);
+
+    .head {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 23px;
+      h1 {
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        color: #ffffff;
+      }
+
+      .crossbutton {
+        height: 32px;
+        width: 32px;
+        border-radius: 32px;
+        background: #ebedf12c;
+        border: none;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        outline: none;
+      }
+    }
+    .children {
+      height: 350px;
+      overflow-x: scroll;
+      width: 100%;
+    }
+    .children::-webkit-scrollbar {
+      display: none;
+    }
+
+    /* Track */
+    .children::-webkit-scrollbar-track {
+      background: #f1f1f1;
+      display: none;
+    }
+
+    /* Handle */
+    .children::-webkit-scrollbar-thumb {
+      background: #888;
+      display: none;
+    }
+
+    /* Handle on hover */
+    .children::-webkit-scrollbar-thumb:hover {
+      background: #555;
+      display: none;
+    }
+  }
+  .search-div {
+    height: 36px;
+    width: 100%;
+    background: #ffffff11;
+    box-sizing: border-box;
+    border-radius: 18px;
+    display: flex;
+    align-items: center;
+    img {
+      margin-left: 16px;
+      margin-right: 10px;
+      transform: scale(1.1);
+    }
+    input {
+      height: 100%;
+      border: none;
+      outline: none;
+      background: transparent;
+      width: calc(100% - 60px);
+      color: rgba(255, 255, 255, 0.418);
+    }
+  }
+
+  .back-button {
+    height: 24px;
+    width: 100px;
+    border: none;
+    outline: none;
+    background: transparent;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-family: rubik;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 22px;
+    svg {
+      margin-right: 15px;
+    }
+
+    cursor: pointer;
+    /* identical to box height, or 147% */
+
+    color: #ffffff;
+
+    mix-blend-mode: normal;
+  }
+  .abxxt {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    .coin-logo-header {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height, or 154% */
+        margin-bottom: 27px;
+        color: #c6c6e5;
+      }
+    }
+    .value20 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 22px;
+      /* identical to box height, or 69% */
+      width: 200px;
+      text-align: center;
+      color: #ffffff;
+      padding-bottom: 15px;
+      border-bottom: 1px solid #515184;
+      margin-bottom: 40px;
+      margin-top: 10px;
+    }
+    .total-value {
+      text-align: center;
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        color: #ececf5;
+      }
+      p {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 12px;
+        line-height: 15px;
+        /* identical to box height, or 125% */
+        margin-bottom: 31px;
+        color: #9c9cc4;
+      }
+    }
+
+    .add-button {
+      background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+      border-radius: 5px;
+      width: 100%;
+      height: 50px;
+      border: none;
+      outline: none;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      cursor: pointer;
+    }
+  }
+}
+
+.buttongroup-xx {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    background-color: transparent;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 46%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.219);
+    p {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      color: #c6c6e5;
+    }
+  }
+  margin-bottom: 64px;
+}
+
+.Modal2.deactive {
+  background-color: transparent;
+  transition: 0.5s all;
+  visibility: hidden;
+  .modal-box {
+    transition: 0.5s all;
+    transform: translate(-50%, 0%);
+  }
+}
+
+.Modal2 {
+  .modal-box {
+    .page2 {
+      opacity: 0;
+      z-index: -1;
+      position: absolute;
+      width: calc(100% - 64px);
+      transition: 0.5s all;
+    }
+    .page1 {
+      opacity: 1;
+      z-index: 1;
+      position: absolute;
+      width: calc(100% - 64px);
+      transition: 0.5s all;
+    }
+  }
+  .modal-box.page1x {
+    .page1 {
+      opacity: 0;
+      z-index: -1;
+      transition: 0.5s all;
+    }
+    .page2 {
+      opacity: 1;
+      z-index: 1;
+      transition: 0.5s all;
+    }
+  }
+}

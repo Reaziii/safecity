@@ -1,0 +1,57 @@
+.ConnectExchange-mobile {
+  width: 100%;
+  background: #1b1b3e;
+  height: 88px;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 52px;
+    // background: ;
+    .back {
+      margin-left: 26px;
+    }
+    h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      /* identical to box height, or 144% */
+
+      text-align: center;
+
+      color: #ececf5;
+    }
+  }
+  .barbox {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 56px;
+    align-items: center;
+    border-bottom: 1px solid #25254A;
+    margin-top: 10px;
+    .left {
+      display: flex;
+      align-items: center;
+      svg{
+        margin-left: 16px;
+        margin-right: 9px;
+      }
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        /* identical to box height, or 157% */
+
+        color: #ececf5;
+      }
+    }
+    .right{
+      margin-right: 16px;
+    }
+  }
+}

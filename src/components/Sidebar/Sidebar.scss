@@ -1,0 +1,105 @@
+.sidebar {
+  width: 200px;
+  // border : 1px solid red;
+  .aic {
+    opacity: 0;
+    transition: opacity 1s;
+  }
+  button {
+    span {
+      transition: 1s all;
+    }
+  }
+  min-height: 100vh;
+  padding: 0px 20px;
+  .activebutton {
+    .sidebar-item-button {
+      .non {
+        opacity: 0;
+        transition: opacity 1s;
+      }
+      .aic {
+        opacity: 1;
+        transition: opacity 1s;
+      }
+    }
+
+    button {
+      span {
+        color: white !important;
+        transition: 1s all;
+      }
+    }
+  }
+  .first-part {
+    // border: 1px solid white;
+    top: 0;
+    left: 0;
+    display: flex;
+    // justify-content: center;
+    height: 100%;
+    align-items: center;
+    .coin-det {
+      display: flex;
+      align-items: center;
+      .coin-png {
+        width: 30px;
+        margin-right: 10px;
+      }
+      .safecoin-png {
+        height: 15px;
+      }
+    }
+  }
+  .sidebar-item-button {
+    width: 200px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    color: rgba(255, 255, 255, 0.651);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 8px;
+    align-items: center;
+    padding-left: 20px;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    position: relative;
+    img {
+      margin-right: 15px;
+      position: absolute;
+    }
+    margin-bottom: 10px;
+    span {
+      font-family: Poppins;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 14px;
+      margin-top: 2px;
+      margin-left: 50px;
+    }
+  }
+  .active {
+    background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+    color: white !important;
+  }
+  .dxx-ty {
+    position: relative;
+    margin-top: 5px;
+    .active-nav {
+      height: 45px;
+      width: 100%;
+      background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+      color: white;
+      border-radius: 8px;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      transition: 0.6s all;
+    }
+  }
+}

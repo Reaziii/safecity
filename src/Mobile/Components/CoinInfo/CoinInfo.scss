@@ -1,0 +1,248 @@
+.coinInfo-mobile {
+  position: fixed;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  transition: 1s all;
+
+  //   background: black;
+  width: 100%;
+  //   height: 100vh;
+  z-index: 10000;
+  overflow: hidden;
+
+  .coininfobox {
+    height: calc(100% - 44px);
+    width: 100%;
+    //   background: ;
+    background: #100f2b;
+    border-radius: 10px 10px 0px 0px;
+    top: 44px;
+    position: fixed;
+    transform: translate(0%, 100%);
+    transition: 0.8s all ease-in-out;
+  }
+  .coininfobox.active-box {
+    transform: translate(0%, 0%);
+    transition: 0.8s all ease-in-out;
+  }
+  .iphonebar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+  }
+  .header {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-between;
+    border-bottom: 1px solid #25254a;
+    padding-bottom: 10px;
+    .left {
+      margin-left: 30px;
+      height: 24px;
+      background: transparent;
+      border: none;
+      outline: none;
+      cursor: pointer;
+    }
+    .right {
+      margin-right: 30px;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      color: #02d3ed;
+    }
+
+    .middle {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      .head {
+        display: flex;
+      }
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #c6c6e5;
+      }
+
+      h2 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 18px;
+        line-height: 26px;
+        color: #ececf5;
+      }
+      p {
+        display: flex;
+        align-items: center;
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 11px;
+        line-height: 13px;
+        color: #00c48c;
+      }
+    }
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 14px;
+    padding-bottom: 18px;
+    // border-bottom: 1px solid #1d1d41;
+    .left {
+      display: flex;
+      button {
+        width: 40px;
+        height: 40px;
+        border-radius: 32px;
+        background: #191749;
+        border: none;
+        outline: none;
+        margin-left: 16px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+    }
+
+    .hours {
+      width: 70px;
+      height: 40px;
+      background: #ffffff;
+      border-radius: 30px;
+      border: none;
+      outline: none;
+      margin-right: 16px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      p {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        color: #000000;
+      }
+    }
+  }
+
+  .chart {
+    padding: 0px 10px;
+    img {
+      width: 100%;
+      transform: translate(0, -50px);
+    }
+  }
+
+  .info-buttons {
+    padding: 0px 16px;
+    button {
+      width: 100%;
+      height: 32px;
+    }
+  }
+  .coininfo {
+    padding: 0px 16px;
+    overflow-x: scroll;
+    height: calc(100% - 510px);
+    h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      color: #ececf5;
+      margin-bottom: 10px;
+    }
+
+    .barx {
+      padding: 10px 0px;
+      display: flex;
+      border-bottom: 1px solid #1d1d41;
+      p {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #7878a1;
+      }
+      div {
+        display: flex;
+        width: 100%;
+        justify-content: center;
+        h2 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 20px;
+          /* identical to box height, or 154% */
+
+          text-align: right;
+
+          color: #e0e0ed;
+        }
+        h4 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: normal;
+          font-size: 13px;
+          line-height: 20px;
+          margin-left: 25px;
+          /* identical to box height, or 154% */
+
+          color: #7878a1;
+        }
+      }
+      h3 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        text-align: right;
+        color: #e0e0ed;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+  .about {
+    h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      /* identical to box height, or 144% */
+      margin-top: 32px;
+      color: #ececf5;
+    }
+
+    p {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      /* or 154% */
+
+      color: #c6c6e5;
+    }
+  }
+}
+
+.coinInfo-mobile.active-index {
+  z-index: -1;
+  transition: 0.5s all;
+}

@@ -1,0 +1,94 @@
+.addcoinmanually-mobile {
+  .head {
+    display: flex;
+    justify-content: space-between;
+  }
+  .close {
+    margin-top: 54px;
+    margin-left: 25px;
+  }
+  .coin-icon {
+    display: flex;
+    justify-content: center;
+    svg {
+      transform: translate(0%, -10px);
+    }
+  }
+  h1 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 20px;
+    text-align: center;
+    color: #c6c6e5;
+  }
+  .take-input {
+    width: 100%;
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    input {
+      border: none;
+      outline: none;
+      background: transparent;
+      text-align: center;
+      color: rgba(198, 198, 229, 1);
+      width: 200px;
+
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 32px;
+      line-height: 22px;
+      /* identical to box height, or 69% */
+
+      color: #ffffff;
+
+      border-bottom: 1px solid #25254a;
+    }
+  }
+
+  .head1 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #ececf5;
+    text-align: center;
+    margin-top: 32px;
+  }
+  .head2 {
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 15px;
+    color: #9c9cc4;
+    text-align: center;
+  }
+
+  button {
+    width: calc(100% - 34px);
+    background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+    height: 40px;
+    margin-left: 17px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+
+    font-family: SF Pro Text;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 13px;
+    line-height: 16px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #ffffff;
+    margin-top: 20px;
+  }
+}

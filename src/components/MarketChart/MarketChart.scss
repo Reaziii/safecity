@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;500&display=swap');
+.Market-chart {
+	width: 65%;
+	max-width: 774px;
+	height: 491px;
+	background: #1b1b3e;
+	border: 1px solid #3a4054;
+	box-sizing: border-box;
+	border-radius: 20px;
+	padding: 20px 23px;
+	max-height: 550px;
+
+	.chart-header {
+		.safecoin {
+			width: 100%;
+			display: flex;
+		}
+
+		.safecoin-logo {
+			height: 25px;
+		}
+
+		.a-text {
+			margin: 0px 10px;
+			.safecoin-a {
+				color: white;
+				font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 18px;
+				font-weight: 300;
+				span {
+					color: #676d81;
+				}
+			}
+			.safecoin-b {
+				font-family: Rubik;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				line-height: 12px;
+				text-transform: uppercase;
+				margin-top: 8px;
+				color: #9fa3c6;
+			}
+		}
+		.right-arrow {
+			margin: 0px 15px;
+		}
+		.ax-img {
+			height: 14px;
+			width: 14px;
+			border-radius: 40px;
+			background: #9bca6a;
+			padding: 5px;
+
+			.doller-logo {
+				height: 100%;
+				width: 100%;
+			}
+		}
+	}
+
+	.chart-option {
+		margin-top: 10px;
+		display: flex;
+		.option {
+			height: 30px;
+			width: 50px;
+			background: #34345e;
+			border: 1px solid #3a4054;
+			box-sizing: border-box;
+			border-radius: 2px;
+			margin-right: 10px;
+			display: flex;
+			padding: 7px;
+			color: white;
+			align-items: center;
+			justify-content: space-between;
+			.op-a {
+				font-family: Rubik;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 12px;
+				color: #ffffff;
+			}
+
+			.bottom-arrow {
+				fill: #676d81;
+			}
+		}
+		.option-e {
+			width: 90px;
+		}
+	}
+	.chart {
+		width: 100%;
+		overflow: hidden;
+		margin-top: 10px;
+		img {
+			width: 100%;
+			max-height: 288px;
+			left: 0;
+		}
+	}
+
+	.footer {
+		margin-top: 20px;
+		display: flex;
+		justify-content: space-between;
+		.option {
+			background: #262648;
+			border: 1px solid rgba(255, 255, 255, 0.1);
+			box-sizing: border-box;
+			border-radius: 13px;
+			height: 50px;
+			width: 18%;
+			display: flex;
+			justify-content: space-between;
+			.lastprice {
+				font-family: Rubik;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 8px;
+				line-height: 11px;
+				/* identical to box height */
+				color: #9fa3c6;
+				letter-spacing: 0.45px;
+			}
+			.last-price-value {
+				font-family: Rubik;
+				font-style: normal;
+				font-weight: 500;
+				font-size: 10px;
+				line-height: 14px;
+				color: white;
+				letter-spacing: 0.6px;
+			}
+			.underoption {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				padding: 10px;
+				padding-right: 0px;
+			}
+
+			.option-chart{
+				height: 100%;
+				width: 45%;
+				display: flex;
+				justify-content: flex-end;
+				overflow: hidden;
+				.chart-a{
+					height: 100%;
+				}
+			}
+		}
+	}
+}

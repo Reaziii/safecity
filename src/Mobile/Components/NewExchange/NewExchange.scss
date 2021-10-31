@@ -1,0 +1,104 @@
+.newExchange-mobile {
+  height: 88px;
+  width: 100%;
+  background: #1b1b3e;
+
+  .header {
+    padding: 0px 26px;
+    padding-top: 53px;
+    display: flex;
+    justify-content: space-between;
+    h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 18px;
+      line-height: 26px;
+      /* identical to box height, or 144% */
+      display: flex;
+      svg {
+        margin-right: 10px;
+      }
+      color: #ececf5;
+    }
+  }
+  .body {
+    margin-top: 50px;
+    //   width: 100%;
+    padding: 0px 16px;
+    //   border : 1px solid gray;
+    p {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      /* identical to box height, or 133% */
+
+      text-transform: uppercase;
+
+      color: #ffffff;
+      margin-bottom: 10px;
+    }
+    .inputs {
+      width: 100%;
+      border-bottom: 1px solid #25254a;
+      height: 23px;
+      display: flex;
+      align-items: center;
+
+      input {
+        width: 90%;
+        border: none;
+        outline: none;
+        background: transparent;
+      }
+      h4 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 11px;
+        line-height: 13px;
+        text-align: right;
+
+        color: #7878a1;
+      }
+    }
+
+    button {
+      width: 100%;
+      height: 40px;
+      border: none;
+      outline: none;
+      background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+      border-radius: 5px;
+      margin-top: 16px;
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 13px;
+      line-height: 16px;
+      /* identical to box height */
+
+      text-align: center;
+
+      color: #ffffff;
+    }
+
+    h3 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 13px;
+      line-height: 20px;
+      /* or 154% */
+      margin: 0px 40px;
+      margin-top: 30px;
+
+
+      text-align: center;
+
+      color: #c6c6e5;
+    }
+  }
+}

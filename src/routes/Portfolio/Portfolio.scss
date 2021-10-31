@@ -1,0 +1,140 @@
+.Portfolio-route {
+  // min-height: 200vh;
+  padding-right: 22px;
+  z-index: 1;
+  .add-new-cur {
+    height: 105px;
+    width: 100%;
+    background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 20px;
+    .erect {
+      position: absolute;
+    }
+    .contain {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .left {
+        display: flex;
+        height: 100%;
+        .first {
+          margin-top: 23px;
+          margin-left: 24px;
+          h1 {
+            font-family: Poppins;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 22px;
+            color: #ffffff;
+            margin: 0;
+          }
+          p {
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            color: #c6c6e5;
+            margin-top: 10px;
+          }
+        }
+        .second {
+          display: flex;
+          margin-top: 24px;
+          align-items: center;
+          height: 32px;
+          width: 72px;
+          background: #00c48c;
+          border-radius: 5px;
+          justify-content: center;
+          margin-left: 40px;
+          img {
+            margin-right: 6px;
+          }
+          p {
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: bold;
+            font-size: 12px;
+            line-height: 14px;
+            text-align: right;
+            color: #ffffff;
+          }
+        }
+      }
+      .right {
+        button {
+          background: rgba(255, 255, 255, 0.19);
+          backdrop-filter: blur(11px);
+          border-radius: 5px;
+          width: 160px;
+          height: 50px;
+          border: none;
+          outline: none;
+          margin-right: 30px;
+          font-family: Poppins;
+          font-style: normal;
+          font-weight: 600;
+          font-size: 13px;
+          color: #ffffff;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+  .add-new-currency {
+    width: 100%;
+    position: relative;
+
+    .a-data {
+      overflow-x: scroll;
+    }
+    .currencys {
+      width: 100%;
+      height: 43px;
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 15px;
+      align-items: center;
+      .left {
+        display: flex;
+        align-items: center;
+        img {
+          margin-right: 10px;
+        }
+        .second {
+          h1 {
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: #ececf5;
+          }
+
+          h2 {
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 11px;
+            line-height: 13px;
+            color: #7878a1;
+          }
+        }
+      }
+      .right {
+        border: none;
+        outline: none;
+        background: transparent;
+        height: 20px;
+        width: 20px;
+        cursor: pointer;
+      }
+    }
+  }
+}

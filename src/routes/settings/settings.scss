@@ -1,0 +1,106 @@
+.settings-route {
+  .profile-bar {
+    height: 176px;
+    width: 100%;
+    background: linear-gradient(91.98deg, #9737ff 0%, #127fff 100%);
+    border-radius: 20px;
+    position: relative;
+    overflow : hidden;
+    .barrect {
+      position: absolute;
+    }
+
+    .main-bar {
+      height: 100%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      button {
+        height: 50px;
+        width: 160px;
+        background: rgba(255, 255, 255, 0.19);
+        backdrop-filter: blur(11px);
+        border-radius: 5px;
+        border: none;
+        outline: none;
+        margin-right: 30px;
+        font-family: Poppins;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 13px;
+        color: #ffffff;
+      }
+
+      .profile {
+        margin-left: 30px;
+        display: flex;
+        height: 100%;
+        align-items: center;
+        h1 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: bold;
+          font-size: 18px;
+          line-height: 21px;
+          margin-left: 30px;
+
+          color: #ffffff;
+
+          h2 {
+            font-family: SF Pro Text;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 13px;
+            line-height: 20px;
+            /* identical to box height, or 154% */
+            margin-top: 6px;
+            text-align: center;
+
+            color: #ddddf0;
+          }
+        }
+      }
+    }
+  }
+  .settings {
+    width: 418px;
+    background: #1b1b3e;
+    border: 1px solid #3a4054;
+    border-radius: 20px;
+    height: 294px;
+    margin-top: 20px;
+    .default-cur {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0px 30px;
+      margin-top: 24px;
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        color: #7878a1;
+      }
+      button {
+        display: flex;
+        outline: none;
+        background: transparent;
+        border: none;
+        align-items: center;
+        p {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 13px;
+          line-height: 20px;
+          margin-right: 7px;
+          text-align: right;
+          color: #e0e0ed;
+        }
+      }
+    }
+  }
+}

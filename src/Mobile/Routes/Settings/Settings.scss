@@ -1,0 +1,46 @@
+.Settings-route-mobile {
+  .settings {
+    margin-top: 40px;
+
+    .barbox {
+      height: 60px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      border-bottom: 1px solid #1d1d41;
+      //   padding: 6px 0px;
+      h1 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 20px;
+        /* identical to box height, or 154% */
+        margin-left: 16px;
+        color: #7878a1;
+      }
+      h2 {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 20px;
+        margin-right: 16px;
+        /* identical to box height, or 154% */
+
+        text-align: right;
+        display: flex;
+        align-content: center;
+        color: #e0e0ed;
+        svg {
+          margin-top: 3px;
+        }
+      }
+      h3 {
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+      }
+    }
+  }
+}

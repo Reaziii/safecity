@@ -1,0 +1,19 @@
+.AddportfolioHead-mobile {
+  .diver-box {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 17px;
+    border-bottom: 1px solid #25254A;
+    height: 47px;
+    align-items: center;
+    .h1 {
+      font-family: SF Pro Text;
+      font-style: normal;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 22px;
+      /* identical to box height, or 157% */
+      color: #ececf5;
+    }
+  }
+}

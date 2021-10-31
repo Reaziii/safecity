@@ -1,0 +1,71 @@
+.AddedAlerts-mobile {
+  margin-top: 24px;
+  .header {
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #25254a;
+    h1 {
+      display: flex;
+      align-items: center;
+      margin-left: 16px;
+      p {
+        font-family: SF Pro Text;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 22px;
+        margin-left: 8px;
+        /* identical to box height, or 157% */
+
+        color: #ececf5;
+      }
+    }
+    .plus {
+      margin-right: 16px;
+    }
+  }
+  .barbox {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 51px;
+    align-items: center;
+
+    .left {
+      display: flex;
+
+      svg {
+        margin-left: 16px;
+      }
+
+      .ux {
+          margin-left: 10px;
+        h1 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 12px;
+          line-height: 16px;
+          /* identical to box height, or 133% */
+
+          color: #ffffff;
+        }
+        h2 {
+          font-family: SF Pro Text;
+          font-style: normal;
+          font-weight: 500;
+          font-size: 11px;
+          line-height: 13px;
+
+          color: #7878a1;
+        }
+      }
+    }
+    .right{
+        margin-right: 10px;
+    }
+  }
+}
